@@ -3,7 +3,52 @@ import java.math.*;
 import java.util.*;
 public class Main {
 //loool 45,this is()so    56 noon,moon equals aa bbbb grerg ghg 45t 54 55
+    public static void quickSearch(String S,String P)
+    {
+        int t1=-1;
+        int ex=0;
+        int i=P.length()-1;
+        int j=P.length()-1;
+        int t=0;
+        while(i<S.length())
+        {
+            char q;
+            if(i==S.length()-1){q=S.charAt(i);t1=0;}
+            else q=S.charAt(i+1);
+            int k=0;
+            if(S.charAt(i)==P.charAt(j))
+            {
+                while(S.charAt(i)==P.charAt(j))
+                {
+                    i-=1;
+                    j-=1;
+                    k+=1;
+                    if(k==P.length()) {
+                        System.out.println("Found at place "+i);
+                        ex=1;
+                        t1=0;
+                        return;
+
+                    }
+                }
+            }
+            if(t1==0)
+            {System.out.println("Not Found(");
+            return;}
+            if(P.lastIndexOf(String.valueOf(q))==-1)
+            {
+                t=P.length()-1;
+            }
+            else
+            {
+                t=P.length()-1-P.lastIndexOf(String.valueOf(q));
+            }
+            i=i+k+t+1;
+            j=P.length()-1;
+        }
+    }
     public static void main(String[] args) {
+        quickSearch("adf56hj75aaaafgfggahj76aaaaaaaa","hj76");
         Scanner in =new Scanner(System.in);
         System.out.println("Type the string");
         String str=in.nextLine();
