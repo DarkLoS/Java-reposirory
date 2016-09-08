@@ -1,0 +1,15 @@
+Validation for г. Минск, ул. Притыцкого, д.15, кв.311 passed.
+Validation for г. Минск, пр. Независимости, д.10, кв.22 passed.
+Validation for г. Минск, пер. Велосипедный, д.15, кв.1 passed.
+Validation for г. Москва, пер. Велосипедный, д.15 passed.
+Validation for г. Вапвап, пер. Пваппрврвапр, д.15 passed.
+Validation for гг. Минск, пер. Велосипедный, д.15, кв. 1 not passed.
+Validation for гМосква, пер. Велосипедный, д.15 not passed.
+Validation for г. Минск, Притыцкого, д.15, кв. 311 not passed.
+Validation for г.Москва, пер. Велосипедный, д.15 not passed.
+Validation for г. Минск, пр. Независимости not passed.
+Validation for г. Минск, п. Велосипедный, д.15, кв.1 not passed.
+Validation for г. Минск, пр. Велосипедный, д.15, кв. passed.
+Validation for г. Москва, пер. Велосипедный, д.  not passed.
+Validation for г. Минск, , д.15, кв. 1 not passed.
+Validation for пер. Велосипедный, д.15, кв. 1 not passed.
