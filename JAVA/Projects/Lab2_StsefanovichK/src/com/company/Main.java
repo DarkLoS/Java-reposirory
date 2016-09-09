@@ -73,17 +73,13 @@ public class Main {
         printAllCharacteristic(mas);
         int [] another_mas=mas[5];
         System.out.println(Arrays.toString((another_mas)));
-
-
-
-        /*Arrays.sort(another_mas,new Comparator<Integer>() {
-            @Override
-            public int compare(Integer emp1, Integer emp2) {
-                return Integer.compare(emp2,emp1);
-            }
-        });
-        System.out.println(Arrays.toString((another_mas)));*/
+        Integer[] ia = new Integer[mas[0].length];
+        for(int i=0;i<mas[0].length;i++)
+            ia[i]=mas[mas[0].length-1][i];
+        Arrays.sort(ia,new IntComparator());
+        for(int i=0;i<mas[0].length;i++)
+            mas[mas[0].length-1][i]=ia[i];
+        printMatrVar2(mas);
     }
 
 }
-
