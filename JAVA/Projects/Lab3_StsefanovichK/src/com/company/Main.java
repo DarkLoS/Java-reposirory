@@ -46,6 +46,7 @@ public class Main {
             i=i+k+t+1;
             j=P.length()-1;
         }
+        System.out.println("Not Found(");
     }
     public static void main(String[] args) {
         quickSearch("adf56hj75aaaafgfggahj76aaaaaaaa","hj76");
