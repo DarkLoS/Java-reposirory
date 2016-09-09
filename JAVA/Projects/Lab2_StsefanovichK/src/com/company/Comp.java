@@ -3,12 +3,11 @@ import java.lang.reflect.Array;
 import java.math.*;
 import java.util.*;
 import java.util.Comparator;
-/**
- * Created by Костя on 05.09.2016.
- */
-public class Comp implements Comparator<Integer> {
-    @Override
-    public int compare(Integer emp1, Integer emp2) {
-        return Integer.compare(emp2,emp1);
-    }
-}
+
+class IntComparator implements Comparator<Integer> {
+
+@Override
+public int compare(Integer v1, Integer v2) {
+        return v1 < v2 ? -1 : v1 > v2 ? +1 : 0;
+        }
+        }
