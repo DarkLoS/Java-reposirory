@@ -1,0 +1,22 @@
+#include "iostream"
+ 
+using namespace std;
+ 
+double a, b, c, sin;
+int n, x;
+ 
+int main(void)
+{
+setlocale(0,"Rus");
+cout << "¬ведите значение, которого нужно вычислить синус: "; cin >> x;
+for(n = 0; n < 1001; n ++){
+    b += 2*n+1;
+        if(n%2!=0){a = 0;}
+        else if(n%2 == 0){
+        a += (-1 * n); 
+        c += x * b;}
+        sin += a / b * c;   
+}
+    cout << a << "\t" << b << "\t" << c << "\n";
+    cout  << "—инус равен: " << sin << "\n";
+}

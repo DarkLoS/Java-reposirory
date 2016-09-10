@@ -1,0 +1,9 @@
+System.out.println(new String("ѕривет".getBytes("Cp866")));
+
+или указать нужную кодировку:
+
+koi8Data,
+KOI8_R
+Cp1251
+
+
