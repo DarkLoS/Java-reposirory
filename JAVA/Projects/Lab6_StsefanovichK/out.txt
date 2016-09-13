@@ -1,0 +1,5 @@
+number: 1 nameDirector: Иванов address: П.Глебки numberAttraction: 5 name: Пещера yearAcquisitionint: 1300 lifeTime: 10000
+number: 2 nameDirector: Петров address: Независимости57-13 numberAttraction: 8 name: Рогатка yearAcquisitionint: 1700 lifeTime: 400
+number: 3 nameDirector: Козлов address: Мясникова numberAttraction: 9 name: Пулемёт yearAcquisitionint: 1489 lifeTime: 300
+number: 2 nameDirector: Петров address: Независимости57-13 numberAttraction: 2 name: Самокат yearAcquisitionint: 2000 lifeTime: 300
+number: 4 nameDirector: Краснов address: Красноармейская numberAttraction: 7 name: Танк yearAcquisitionint: 1945 lifeTime: 50
