@@ -15,8 +15,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 public class Main {
     public static void main(String[] args) {
-        String md="827ccb0eea8a706c4c34a16891f84e7b";
-
         EventQueue.invokeLater(new Runnable()
         {
             public void run()
