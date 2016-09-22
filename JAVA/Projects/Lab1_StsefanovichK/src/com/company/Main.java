@@ -30,12 +30,8 @@ public class Main {
         }
         System.out.println((answer.toString()).substring(0,accuracy+2));
         Formatter fmt = new Formatter ();
-        fmt.format("%."+Integer.toString(accuracy+2)+"s", (answer.toString()));
+        fmt.format("%1$."+Integer.toString(accuracy+2)+"s" +" %2$+.7f"+" %3$05x"+" %4$05o", (answer.toString()),Math.cos(intermediaryValue),accuracy,accuracy);
         System.out.println(fmt);
         System.out.println(Math.cos(intermediaryValue));
-        NumberFormat formatter = NumberFormat.getNumberInstance();
-        formatter.setMaximumFractionDigits(7);
-        String s = formatter.format(Math.cos(intermediaryValue));
-        System.out.println(s);
     }
 }
