@@ -20,10 +20,18 @@ class LinearEquations extends MyEquation {
         for(int y=0;y<list.size();y++)
         {
             if(Math.abs(list.get(i).at(y))>MAX) {
-                MAX =list.get(i).at(y);
+                MAX =Math.abs(list.get(i).at(y));
                 pos=y;
             }
         }
         return pos;
+    }
+    public Float[][] toArray()
+    {
+        Float[][] res = new Float[this.size()][this.size()];
+        for(int i=0;i<this.size();i++)
+            for(int j=0;j<this.size();j++)
+                res[i][j]=this.itemAt(i,j);
+        return res;
     }
 }

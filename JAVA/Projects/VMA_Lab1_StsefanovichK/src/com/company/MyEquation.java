@@ -8,6 +8,10 @@ class MyEquation  {
                     {-0.1149f,0.2413f,0.0000f,0.9001f,-0.0383f,-3.4508f},
                     {0.4788f,0.0000f,0.1724f,0.0192f,1.0724f,5.5727f}};
     private List<Float> equation = new ArrayList<>();
+    public Float determinate;
+    public MyEquation() {
+        determinate=1.0f;
+    }
     public List<Float> getEquation(){
         return equation;
     }
@@ -15,8 +19,8 @@ class MyEquation  {
         if (size < 2) size = 2;
         this.equation.clear();
         for (int i = 0; i < size; i++){
-            // Random random = new Random();
-            // this.equation.add((float) (random.nextInt() % 5) + 1);
+            //Random random = new Random();
+          // this.equation.add((float) (random.nextInt() % 5) + 1);
             this.equation.add(mas[a][i]);
         }
     }
@@ -51,10 +55,6 @@ class MyEquation  {
             Float next = i.next();
             i.set(next * coefficient);
         }
-    }
-    public Float findCoefficient(Float a, Float b){
-        if (a == 0.0f) return 0.0f;
-        return -b/a;
     }
     public Float at(int index){
         return equation.get(index);

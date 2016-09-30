@@ -4,36 +4,43 @@ class Algorithm extends LinearEquations {
     public Algorithm(LinearEquations system){
         list = system;
     }
-    public void calculate() {
+    public Float[][] calculate(int beta) {
         for(int i = 0; i < list.size() - 1; i++){
+            Integer pos=list.max(i);
+            determinate*=list.itemAt(i,pos);
+            list.get(i).mul(1/list.itemAt(i,pos));
             for(int j = i +1; j < list.size(); j++){
-                Integer pos=list.max(i);
-                Float k = list.get(j).findCoefficient(list.get(j).at(pos), list.get(i).at(pos));
+
+                Float k = -list.itemAt(j,pos);
                 if(k==0.0f){}
                 else {
-                    list.get(j).mul(k);
+                    list.get(i).mul(k);
                     list.get(j).addEquation(list.get(i));
+                    list.get(i).mul(1/k);
                 }
             }
         }
-    }
-    public void calculateInverse(){
-        for(int i = 0; i < list.size() - 1; i++){
-            for(int j = i + 1; j < list.size(); j++){
-                Float k = list.get(j).findCoefficient(list.get(j).at(i), list.get(i).at(i));
-                list.get(j).mul(k);
-                list.get(j).addEquation(list.get(i));
+        Integer pos=list.max(list.size() - 1);
+        determinate*=list.get(list.size() - 1).at(pos);
+        list.get(list.size() - 1).mul(1/list.itemAt(list.size() - 1,pos));
+        Float [][]x = new Float[5][beta-4];
+        int i;int j;
+        for(i = list.size() - 1; i >= 0; i--) {
+            Float sum[] =new Float[beta-4] ;
+            for(int y=0;y<beta-4;y++)
+                sum[y]=0.0f;
+            pos=0;
+            for(j = list.size() - 1; j >=0; j--) {
+                if(x[j][0]!=null)
+                    for(int y=0;y<beta-4;y++)
+                      sum[y] += list.itemAt(i, j) * x[j][y];
+                if((list.itemAt(i, j)>=0.000001f||list.itemAt(i, j)<=-0.000001f)&& x[j][0]==null) {
+                    pos = j;
+                }
             }
+            for(int y=0;y<beta-4;y++)
+            x[pos][y] = (list.itemAt(i, list.size()+y) - sum[y]) / list.itemAt(i, pos);
         }
-        for(int i = list.size() - 1; i >= 0; i--){
-            Float k = list.get(i).at(i);
-            list.get(i).mul(1/k);
-            for(int j = i - 1; j>=0; j--){
-                Float l = list.get(j).findCoefficient(list.get(j).at(i), list.get(i).at(i));
-                list.get(j).mul(l);
-                list.get(j).addEquation(list.get(i));
-            }
-        }
-
+        return x ;
     }
 }
