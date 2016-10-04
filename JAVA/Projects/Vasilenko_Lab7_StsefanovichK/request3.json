@@ -1,0 +1,27 @@
+[name: ElliotHackCorp
+shortTitle: E-Corp
+dateUpdate: 20.11.1978
+address: null
+dateFoundation: 1960 07 20
+countEmployees: 250
+auditor: Jennis
+phone: null
+email: null
+branch: Soc.Ingenering
+activity: Software development
+internetAddress: fsoc.sh
+
+,name: Fix Jey Department
+shortTitle: FJD
+dateUpdate: null
+address: Moscow
+dateFoundation: 1959 08 10
+countEmployees: 100
+auditor: Maus
+phone: null
+email: null
+branch: Filosofy
+activity: Software development
+internetAddress: kmb.ufoctf.ru
+
+]

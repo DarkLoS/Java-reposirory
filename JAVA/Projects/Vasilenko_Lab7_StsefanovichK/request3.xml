@@ -1,0 +1,33 @@
+<com.company.Company>
+  <name>ElliotHackCorp</name>
+  <shortTitle>E-Corp</shortTitle>
+  <dateUpdate>20.11.1978</dateUpdate>
+  <address>null</address>
+  <dateFoundation>
+    <time>-298263600000</time>
+    <timezone>Europe/Kaliningrad</timezone>
+  </dateFoundation>
+  <countEmployees>250</countEmployees>
+  <auditor>Jennis</auditor>
+  <phone>null</phone>
+  <email>null</email>
+  <branch>Soc.Ingenering</branch>
+  <activity>Software development</activity>
+  <internetAddress>fsoc.sh</internetAddress>
+</com.company.Company><com.company.Company>
+  <name>Fix Jey Department</name>
+  <shortTitle>FJD</shortTitle>
+  <dateUpdate>null</dateUpdate>
+  <address>Moscow</address>
+  <dateFoundation>
+    <time>-328071600000</time>
+    <timezone>Europe/Kaliningrad</timezone>
+  </dateFoundation>
+  <countEmployees>100</countEmployees>
+  <auditor>Maus</auditor>
+  <phone>null</phone>
+  <email>null</email>
+  <branch>Filosofy</branch>
+  <activity>Software development</activity>
+  <internetAddress>kmb.ufoctf.ru</internetAddress>
+</com.company.Company>

@@ -1,0 +1,65 @@
+<com.company.Company>
+  <name>Augustina Incorporation</name>
+  <shortTitle>AugInc</shortTitle>
+  <dateUpdate>11.02.1998</dateUpdate>
+  <address>New-York</address>
+  <dateFoundation>
+    <time>2667600000</time>
+    <timezone>Europe/Kaliningrad</timezone>
+  </dateFoundation>
+  <countEmployees>500</countEmployees>
+  <auditor>Mikki</auditor>
+  <phone>+375 29 355-27-46</phone>
+  <email>freeplayercot@gmail.com</email>
+  <branch>Soc.Ingenering</branch>
+  <activity>Marketing</activity>
+  <internetAddress>github.io</internetAddress>
+</com.company.Company><com.company.Company>
+  <name>Felix Incorporation</name>
+  <shortTitle>FInc</shortTitle>
+  <dateUpdate>null</dateUpdate>
+  <address>Washington</address>
+  <dateFoundation>
+    <time>633819600000</time>
+    <timezone>Europe/Kaliningrad</timezone>
+  </dateFoundation>
+  <countEmployees>1000</countEmployees>
+  <auditor>null</auditor>
+  <phone>+375 29 345-11-76</phone>
+  <email>null</email>
+  <branch>Soc.Ingenering</branch>
+  <activity>Marketing</activity>
+  <internetAddress>felicity.com</internetAddress>
+</com.company.Company><com.company.Company>
+  <name>Na-na-na Corporation</name>
+  <shortTitle>NaCorp</shortTitle>
+  <dateUpdate>9.02.1994</dateUpdate>
+  <address>Minsk</address>
+  <dateFoundation>
+    <time>611006400000</time>
+    <timezone>Europe/Kaliningrad</timezone>
+  </dateFoundation>
+  <countEmployees>1700</countEmployees>
+  <auditor>null</auditor>
+  <phone>+375 17 355-27-46</phone>
+  <email>free_playerq@mail.ru</email>
+  <branch>Soc.Ingenering</branch>
+  <activity>Filosofy</activity>
+  <internetAddress>github.io</internetAddress>
+</com.company.Company><com.company.Company>
+  <name>Wayne Enterptaise</name>
+  <shortTitle>WAYNE</shortTitle>
+  <dateUpdate>null</dateUpdate>
+  <address>null</address>
+  <dateFoundation>
+    <time>680216400000</time>
+    <timezone>Europe/Kaliningrad</timezone>
+  </dateFoundation>
+  <countEmployees>700</countEmployees>
+  <auditor>null</auditor>
+  <phone>null</phone>
+  <email>null</email>
+  <branch>Software development</branch>
+  <activity>Filosofy</activity>
+  <internetAddress>countersite.org</internetAddress>
+</com.company.Company>

@@ -1,0 +1,3 @@
+SELECT * FROM dataBase WHERE countEmployees BETWEEN 500 AND 3000
+SELECT * FROM dataBase WHERE LOWER(shortTitle)=LOWER("AugInc")
+SELECT * FROM dataBase WHERE LOWER(activity)=LOWER("software development")

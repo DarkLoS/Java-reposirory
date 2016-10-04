@@ -1,0 +1,49 @@
+<com.company.Company>
+  <name>Augustina Incorporation</name>
+  <shortTitle>AugInc</shortTitle>
+  <dateUpdate>11.02.1998</dateUpdate>
+  <address>New-York</address>
+  <dateFoundation>
+    <time>2667600000</time>
+    <timezone>Europe/Kaliningrad</timezone>
+  </dateFoundation>
+  <countEmployees>500</countEmployees>
+  <auditor>Mikki</auditor>
+  <phone>+375 29 355-27-46</phone>
+  <email>freeplayercot@gmail.com</email>
+  <branch>Soc.Ingenering</branch>
+  <activity>Marketing</activity>
+  <internetAddress>github.io</internetAddress>
+</com.company.Company><com.company.Company>
+  <name>ElliotHackCorp</name>
+  <shortTitle>E-Corp</shortTitle>
+  <dateUpdate>20.11.1978</dateUpdate>
+  <address></address>
+  <dateFoundation>
+    <time>-298263600000</time>
+    <timezone>Europe/Kaliningrad</timezone>
+  </dateFoundation>
+  <countEmployees>250</countEmployees>
+  <auditor>Jennis</auditor>
+  <phone></phone>
+  <email></email>
+  <branch>Soc.Ingenering</branch>
+  <activity>Software development</activity>
+  <internetAddress>fsoc.sh</internetAddress>
+</com.company.Company><com.company.Company>
+  <name>Fix Jey Department</name>
+  <shortTitle>FJD</shortTitle>
+  <dateUpdate></dateUpdate>
+  <address>Moscow</address>
+  <dateFoundation>
+    <time>-328071600000</time>
+    <timezone>Europe/Kaliningrad</timezone>
+  </dateFoundation>
+  <countEmployees>100</countEmployees>
+  <auditor>Maus</auditor>
+  <phone></phone>
+  <email></email>
+  <branch>Filosofy</branch>
+  <activity>Software development</activity>
+  <internetAddress>kmb.ufoctf.ru</internetAddress>
+</com.company.Company>

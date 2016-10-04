@@ -1,0 +1,17 @@
+<com.company.Company>
+  <name>Augustina Incorporation</name>
+  <shortTitle>AugInc</shortTitle>
+  <dateUpdate>11.02.1998</dateUpdate>
+  <address>New-York</address>
+  <dateFoundation>
+    <time>2667600000</time>
+    <timezone>Europe/Kaliningrad</timezone>
+  </dateFoundation>
+  <countEmployees>500</countEmployees>
+  <auditor>Mikki</auditor>
+  <phone>+375 29 355-27-46</phone>
+  <email>freeplayercot@gmail.com</email>
+  <branch>Soc.Ingenering</branch>
+  <activity>Marketing</activity>
+  <internetAddress>github.io</internetAddress>
+</com.company.Company>

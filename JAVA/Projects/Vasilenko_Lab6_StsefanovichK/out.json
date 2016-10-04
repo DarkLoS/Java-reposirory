@@ -1,0 +1,41 @@
+findByActivity: 
+[name: Augustina Incorporation
+shortTitle: AugInc
+dateUpdate: 11.02.1998
+address: New-York
+dateFoundation: 1970 02 01
+countEmployees: 500
+auditor: Mikki
+phone: +375 29 355-27-46
+email: freeplayercot@gmail.com
+branch: Soc.Ingenering
+activity: Marketing
+internetAddress: github.io
+
+,name: ElliotHackCorp
+shortTitle: E-Corp
+dateUpdate: 20.11.1978
+address: 
+dateFoundation: 1960 07 20
+countEmployees: 250
+auditor: Jennis
+phone: 
+email: 
+branch: Soc.Ingenering
+activity: Software development
+internetAddress: fsoc.sh
+
+,name: Fix Jey Department
+shortTitle: FJD
+dateUpdate: 
+address: Moscow
+dateFoundation: 1959 08 10
+countEmployees: 100
+auditor: Maus
+phone: 
+email: 
+branch: Filosofy
+activity: Software development
+internetAddress: kmb.ufoctf.ru
+
+]
