@@ -1,0 +1,49 @@
+New York,New York 8550 10 14
+Los Angeles,California 3971 90 96
+Chicago,Illinois 2720 60 62
+Houston,Texas 2296 73 88
+Philadelphia,Pennsylvania 1567 15 19
+Phoenix,Arizona 1563 85 86
+San Antonio,Texas 1469 73 88
+San Diego,California 1394 90 96
+Dallas,Texas 1300 73 88
+San Jose,California 1026 90 96
+Austin,Texas 931 73 88
+Jacksonville,Florida 868 32 34
+San Francisco,California 864 90 96
+Indianapolis,Indiana 853 46 47
+Columbus,Ohio 850 43 45
+FortWorth,Texas 833 73 88
+Charlotte,North Carolina 827 27 29
+Seattle,Washington 684 98 99
+Denver,Colorado 682 80 81
+El Paso,Texas 681 73 88
+Detroit,Michigan 677 48 49
+Boston,Massachusetts 667 01 05
+Memphis,Tennessee 655 37 38
+Nashville,Tennessee 654 37 38
+Portland,Oregon 632 97 97
+Oklahoma City,Oklahoma 631 73 74
+Las Vegas,Nevada 623 88 89
+Baltimore,Maryland 621 20 21
+Louisville,Kentucky 615 40 42
+Milwaukee,Wisconsin 600 53 54
+Albuquerque,New Mexico 559 87 88
+Tucson,Arizona 531 85 86
+Fresno,California 520 90 96
+Sacramento,California 490 90 96
+Kansas City,Missouri 475 63 65
+Long Beach,California 474 90 96
+Mesa,Arizona 471 85 86
+Atlanta,Georgia 463 30 39
+Colorado Springs,Colorado 456 80 81
+Virginia Beach,Virginia 452 20 26
+Raleigh,North Carolina 451 27 29
+Omaha,Nebraska 443 68 69
+Miami,Florida 441 32 34
+Oakland,California 419 90 96
+Minneapolis,Minnesota 410 55 56
+Tulsa,Oklahoma 403 73 74
+Wichita,Kansas 389 66 72
+New Orleans,Louisiana 389 70 71
+Arlington,Texas 388 73 88
