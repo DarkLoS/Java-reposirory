@@ -1,0 +1,6 @@
+Dmitry;Nemanskaya 17;2016.12.01;B;15;1.500.000;1234
+Pavel;Petra Glebki 44-9;2016.06.12;C;20;6.100.000;1000
+Maria;Baumanskaya 34;2013.10.05;A;13;4.500.000;345
+Alex;Petra Glebki 44-9;2016.03.12;C;20;6.100.000;3457
+Agata;Nemanskaya 17;2016.10.20;B;15;1.500.000;12
+Max;Derevnya 23-234;2014.02.23;C;20;6.100.000;10

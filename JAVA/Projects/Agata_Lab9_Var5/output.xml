@@ -1,0 +1,56 @@
+<list>
+  <serializableclass>
+    <name>Dmitry</name>
+    <address>Nemanskaya 17</address>
+    <date>2016-11-30 22:00:00.0 UTC</date>
+    <category>B</category>
+    <experience>15</experience>
+    <salary>1.500.000</salary>
+    <tabNumber>1234</tabNumber>
+  </serializableclass>
+  <serializableclass>
+    <name>Pavel</name>
+    <address>Petra Glebki 44-9</address>
+    <date>2016-06-11 22:00:00.0 UTC</date>
+    <category>C</category>
+    <experience>20</experience>
+    <salary>6.100.000</salary>
+    <tabNumber>1000</tabNumber>
+  </serializableclass>
+  <serializableclass>
+    <name>Maria</name>
+    <address>Baumanskaya 34</address>
+    <date>2013-10-04 21:00:00.0 UTC</date>
+    <category>A</category>
+    <experience>13</experience>
+    <salary>4.500.000</salary>
+    <tabNumber>345</tabNumber>
+  </serializableclass>
+  <serializableclass>
+    <name>Alex</name>
+    <address>Petra Glebki 44-9</address>
+    <date>2016-03-11 22:00:00.0 UTC</date>
+    <category>C</category>
+    <experience>20</experience>
+    <salary>6.100.000</salary>
+    <tabNumber>3457</tabNumber>
+  </serializableclass>
+  <serializableclass>
+    <name>Agata</name>
+    <address>Nemanskaya 17</address>
+    <date>2016-10-19 22:00:00.0 UTC</date>
+    <category>B</category>
+    <experience>15</experience>
+    <salary>1.500.000</salary>
+    <tabNumber>12</tabNumber>
+  </serializableclass>
+  <serializableclass>
+    <name>Max</name>
+    <address>Derevnya 23-234</address>
+    <date>2014-02-22 21:00:00.0 UTC</date>
+    <category>C</category>
+    <experience>20</experience>
+    <salary>6.100.000</salary>
+    <tabNumber>10</tabNumber>
+  </serializableclass>
+</list>
