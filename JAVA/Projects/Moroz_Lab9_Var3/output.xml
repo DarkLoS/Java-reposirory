@@ -1,0 +1,44 @@
+<list>
+  <serializableclass>
+    <mark>Sedan</mark>
+    <date>2016-11-30 22:00:00.0 UTC</date>
+    <mileage>1500 km</mileage>
+    <capacity>15</capacity>
+    <price>14.500.000</price>
+  </serializableclass>
+  <serializableclass>
+    <mark>BMW</mark>
+    <date>2016-06-11 22:00:00.0 UTC</date>
+    <mileage>100 km</mileage>
+    <capacity>20</capacity>
+    <price>60.100.000</price>
+  </serializableclass>
+  <serializableclass>
+    <mark>Pego</mark>
+    <date>2013-10-04 21:00:00.0 UTC</date>
+    <mileage>111 km</mileage>
+    <capacity>13</capacity>
+    <price>14.500.000</price>
+  </serializableclass>
+  <serializableclass>
+    <mark>Volvo</mark>
+    <date>2016-03-11 22:00:00.0 UTC</date>
+    <mileage>1200 km</mileage>
+    <capacity>20</capacity>
+    <price>65.100.000</price>
+  </serializableclass>
+  <serializableclass>
+    <mark>Audi</mark>
+    <date>2016-10-19 22:00:00.0 UTC</date>
+    <mileage>900 km</mileage>
+    <capacity>15</capacity>
+    <price>11.500.000</price>
+  </serializableclass>
+  <serializableclass>
+    <mark>Honda</mark>
+    <date>2014-02-22 21:00:00.0 UTC</date>
+    <mileage>120 km</mileage>
+    <capacity>20</capacity>
+    <price>6.100.000</price>
+  </serializableclass>
+</list>
