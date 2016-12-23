@@ -19,7 +19,7 @@ public abstract class People implements java.io.Serializable{
         return address;
     }
     public String getDate(){
-        return sdf.format(date);
+        return date.toString();
     }
     public void setName(String name){
         this.name=name;
