@@ -1,0 +1,12 @@
+Look away, look away, 
+look away, look away
+This show will wreck your evening, 
+your whole life, and your day
+R 0 1 19
+S 2 1 2
+S 2 4 19
+Every single episode is 
+nothing but dismay
+So look away, look away, look away
+R 1 1 2
+S 1 2 3
